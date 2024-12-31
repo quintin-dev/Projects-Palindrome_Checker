@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#word-display {
+    font-size: 24px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.letter {
+    display: inline-block;
+    font-size: 2em;
+    transition: transform 1s ease-in-out;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+body.correct {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+}
+
+body.incorrect {
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+}
+
+.congratulations {
+    font-size: 2em;
+    color: gold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.failure {
+    font-size: 2em;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

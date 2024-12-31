@@ -3,7 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Palindrome Checker</title>
+        <title>Animated Palindrome Checker</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <h1>Animated Palindrome Checker</h1>
+            <input type="text" id="text-input" placeholder="Enter text here" />
+            <button id="check-btn">Check Palindrome</button>
+            <div id="word-display"></div>
+            <div id="result"></div>
+            <audio id="success-audio" src="success.mp3"></audio>
+            <audio id="error-audio" src="error.mp3"></audio>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
