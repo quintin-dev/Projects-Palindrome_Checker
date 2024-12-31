@@ -1,9 +1,11 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
     transition: background 0.5s ease;
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
 }
 
 .container {
@@ -30,18 +32,41 @@ button:hover {
     transform: scale(1.1);
 }
 
-#word-display {
-    font-size: 24px;
+/* Reverse animation styles */
+#reverse-animation {
     margin: 20px auto;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
+    font-size: 2em;
 }
 
 .letter {
     display: inline-block;
-    font-size: 2em;
-    transition: transform 1s ease-in-out;
+    transform: scale(0);
+    animation: pop-out 0.5s forwards ease-in-out;
+}
+
+@keyframes pop-out {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Final word and result styles */
+#final-word {
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #333;
 }
 
 #result {
