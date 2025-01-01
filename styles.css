@@ -140,3 +140,46 @@ body.incorrect {
 .hidden {
     display: none;
 }
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #text-input,
+    button {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    #reverse-animation {
+        font-size: 1.5em;
+        gap: 5px;
+    }
+
+    #final-word {
+        font-size: 2em;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+
+    #special-message {
+        font-size: 1em;
+    }
+
+    .container {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    body.newYear {
+        background-size: contain;
+        background-position: center;
+    }
+}
