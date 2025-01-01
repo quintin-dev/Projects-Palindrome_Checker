@@ -6,15 +6,11 @@ This project is a **Palindrome Checker** built with JavaScript, HTML, and CSS. I
 
 **Type 2025 to see the magic!**
 
----
-
 ## Live Demo
 
 Click here to view and interact: [Palindrome Checker](https://your-live-demo-link.com)
 
 ![Palindrome Checker](Assets/palindrome-checker.gif)
-
----
 
 ## Features
 
@@ -36,16 +32,12 @@ Click here to view and interact: [Palindrome Checker](https://your-live-demo-lin
 -   Responsive design
 -   Hover and active states for buttons
 
----
-
 ## How To Contribute
 
 Contribute to this project in the following ways:
 
 1. Improve the error handling logic and UI.
 2. Add more features, such as history tracking of checked strings or dark mode.
-
----
 
 ## Steps To Contribute
 
@@ -56,7 +48,5 @@ Contribute to this project in the following ways:
 5. Create the pull request.
 
 Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
----
 
 Don't forget to give the project a star ⭐ if you liked it or found it helpful!
