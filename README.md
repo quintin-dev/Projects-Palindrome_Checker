@@ -10,7 +10,7 @@ This project is a **Palindrome Checker** built with JavaScript, HTML, and CSS. I
 
 Click here to view and interact: [Palindrome Checker](https://your-live-demo-link.com)
 
-![Palindrome Checker](Assets/palindrome-checker.gif)
+![Palindrome Checker](Assets/palindrome.gif)
 
 ## Features
 
