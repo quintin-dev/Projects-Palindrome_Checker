@@ -1,4 +1,4 @@
-# FCC JavaScript Certificate Projects - Palindrome Checker
+# FCC JavaScript DSA Certificate Projects - Palindrome Checker
 
 ## Description
 
