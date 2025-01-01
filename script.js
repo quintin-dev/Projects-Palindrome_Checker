@@ -5,6 +5,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
     const resultDiv = document.getElementById('result');
     const successAudio = document.getElementById('success-audio');
     const errorAudio = document.getElementById('error-audio');
+    const newYearAudio = document.getElementById('new-year-audio');
     const specialMessage = document.getElementById('special-message');
 
     reverseAnimation.innerHTML = '';
@@ -45,6 +46,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
             finalWordDiv.classList.add('hidden');
             reverseAnimation.innerHTML = '';
             specialMessage.classList.remove('hidden');
+            newYearAudio.play();
         } else {
             document.body.className = 'incorrect';
             resultDiv.innerHTML = `<div class="failure">${originalText} is not a palindrome</div>`;
