@@ -3,7 +3,25 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Palindrome Checker</title>
+        <title>Palindrome Checker with Reverse Animation</title>
+        <link rel="stylesheet" href="styles.css" />
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <h1>Palindrome Checker</h1>
+            <input type="text" id="text-input" placeholder="Enter a word" />
+            <button id="check-btn">Check Palindrome</button>
+            <div id="reverse-animation"></div>
+            <div id="final-word"></div>
+            <div id="result"></div>
+            <div id="special-message" class="hidden">
+                Numbers can be palindromes but 2025 isn't
+            </div>
+            <audio id="success-audio" src="success.mp3"></audio>
+            <audio id="error-audio" src="error.mp3"></audio>
+            <audio id="new-year-audio" src="new-year.mp3"></audio>
+            <button id="reset" onclick="window.location.reload()">Reset</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
 </html>
