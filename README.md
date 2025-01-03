@@ -8,7 +8,7 @@ This project is a **Palindrome Checker** built with JavaScript, HTML, and CSS. I
 
 ## Live Demo
 
-**Click to view and interact:** [Palindrome Checker](https://quintin-dev.github.io/FCC-Palindrome_Checker/)
+**Click to view and interact:** [Palindrome Checker](https://quintin-dev.github.io/Projects-Palindrome_Checker/)
 
 ![Palindrome Checker](Assets/palindrome.gif)
 
