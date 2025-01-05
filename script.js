@@ -13,6 +13,9 @@ document.getElementById('check-btn').addEventListener('click', () => {
     resultDiv.textContent = '';
     document.body.className = '';
     specialMessage.classList.add('hidden');
+    successAudio.pause();
+    errorAudio.pause();
+    newYearAudio.pause();
 
     if (!textInput.trim()) {
         alert('Please input a value');
