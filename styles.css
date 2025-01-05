@@ -18,6 +18,22 @@ h1 {
     color: #c424e4;
 }
 
+#definition {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    /*-webkit-text-stroke: 1px black;*/
+    padding: 5px;
+    margin-top: 50px;
+    border: 2px solid #c424e4;
+    font-style: italic;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#reset {
+    margin-bottom: 40px !important;
+}
+
 #text-input {
     padding: 10px;
     font-size: 16px;
