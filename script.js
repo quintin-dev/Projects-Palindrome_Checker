@@ -14,7 +14,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
     resultDiv.textContent = '';
     document.body.className = '';
     specialMessage.classList.add('hidden');
-    definitionDiv.classList.remove('hidden');
+    definitionDiv.style.display = 'block';
     successAudio.pause();
     errorAudio.pause();
     newYearAudio.pause();
@@ -51,6 +51,7 @@ document.getElementById('check-btn').addEventListener('click', () => {
             finalWordDiv.classList.add('hidden');
             reverseAnimation.innerHTML = '';
             specialMessage.classList.remove('hidden');
+            definitionDiv.style.display = 'none';
             newYearAudio.play();
         } else {
             document.body.className = 'incorrect';
