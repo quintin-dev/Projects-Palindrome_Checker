@@ -164,29 +164,38 @@ body.incorrect {
 @media (max-width: 600px) {
     body {
         font-size: 14px;
+        padding: 10px;
     }
 
     h1 {
         font-size: 2em;
     }
 
-    #text-input,
-    button {
+    #text-input {
         width: 90%;
         font-size: 14px;
     }
 
+    button {
+        width: 30%;
+        font-size: 14px;
+    }
+
     #reverse-animation {
-        font-size: 1.5em;
+        font-size: 1.2em;
         gap: 5px;
     }
 
     #final-word {
-        font-size: 2em;
+        font-size: 1.5em;
+    }
+
+    #reset {
+        margin-bottom: 5px !important;
     }
 
     #result {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     #special-message {
@@ -194,12 +203,21 @@ body.incorrect {
     }
 
     .container {
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 10px;
     }
 
     body.newYear {
         background-size: contain;
         background-position: center;
+    }
+
+    #definition-div {
+        margin-top: 20px;
+        padding: 5px;
+    }
+
+    #definition {
+        font-size: 1em;
     }
 }
