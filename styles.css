@@ -18,16 +18,20 @@ h1 {
     color: #c424e4;
 }
 
-#definition {
-    font-size: 1.3em;
-    margin-bottom: 20px;
-    /*-webkit-text-stroke: 1px black;*/
-    padding: 5px;
+#definition-div {
+    -webkit-text-stroke: 0.2px #296ef9;
     margin-top: 50px;
-    border: 2px solid #c424e4;
-    font-style: italic;
+    border-radius: 5px;
     max-width: 500px;
     margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#definition {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 10px;
+    color: #fff;
 }
 
 #reset {
@@ -37,7 +41,7 @@ h1 {
 #text-input {
     padding: 10px;
     font-size: 16px;
-    margin: 10px;
+    margin: 10px auto;
     border: 2px solid #24a7e4;
     border-radius: 5px;
     outline: none;
