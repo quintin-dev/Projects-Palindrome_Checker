@@ -137,6 +137,7 @@ body.newYear {
     background: url(https://c.tenor.com/JO3JDWVaWwAAAAAC/tenor.gif) no-repeat
         center center fixed;
     background-size: cover;
+    background-color: #000;
 }
 
 body.incorrect {
@@ -218,6 +219,7 @@ body.incorrect {
     }
 
     #definition {
-        font-size: 1em;
+        font-size: 1.2em;
+        padding: 2px;
     }
 }
