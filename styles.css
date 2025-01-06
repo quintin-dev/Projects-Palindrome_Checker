@@ -170,6 +170,7 @@ body.incorrect {
 
     h1 {
         font-size: 2em;
+        -webkit-text-stroke: 0.4px black;
     }
 
     #text-input {
