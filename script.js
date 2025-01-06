@@ -7,12 +7,14 @@ document.getElementById('check-btn').addEventListener('click', () => {
     const errorAudio = document.getElementById('error-audio');
     const newYearAudio = document.getElementById('new-year-audio');
     const specialMessage = document.getElementById('special-message');
+    const definitionDiv = document.getElementById('definition-div');
 
     reverseAnimation.innerHTML = '';
     finalWordDiv.textContent = '';
     resultDiv.textContent = '';
     document.body.className = '';
     specialMessage.classList.add('hidden');
+    definitionDiv.classList.remove('hidden');
     successAudio.pause();
     errorAudio.pause();
     newYearAudio.pause();
