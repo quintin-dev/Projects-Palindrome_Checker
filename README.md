@@ -8,7 +8,7 @@ This project is a **Palindrome Checker** built with JavaScript, HTML, and CSS. I
 
 ## Live Demo
 
-**Click to view and interact:** [Palindrome Checker](https://quintin-dev.github.io/Projects-Palindrome_Checker/)
+**Click to view and interact:** [Palindrome Checker](https://quintincodes.github.io/Projects-Palindrome_Checker/)
 
 ![Palindrome Checker](Assets/palindrome.gif)
 
@@ -16,21 +16,21 @@ This project is a **Palindrome Checker** built with JavaScript, HTML, and CSS. I
 
 **JavaScript**
 
--   String manipulation
--   Regular Expressions
--   Conditional statements
--   Functions
+- String manipulation
+- Regular Expressions
+- Conditional statements
+- Functions
 
 **HTML**
 
--   Input fields
--   Buttons
--   Error messages
+- Input fields
+- Buttons
+- Error messages
 
 **CSS**
 
--   Responsive design
--   Hover and active states for buttons
+- Responsive design
+- Hover and active states for buttons
 
 ## How To Contribute
 
